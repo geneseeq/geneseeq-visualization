@@ -1,0 +1,19 @@
+{
+  "name": "geneseeq-visualization",
+  "version": "0.0.1",
+  "description": "bio data visualizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miushock/geneseeq-visualization.git"
+  },
+  "author": "jin.xiao@freelog.co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miushock/geneseeq-visualization/issues"
+  },
+  "homepage": "https://github.com/miushock/geneseeq-visualization#readme"
+}
