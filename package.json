@@ -18,7 +18,9 @@
   "homepage": "https://github.com/miushock/geneseeq-visualization#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "babel-preset-react": "^6.16.0"
+    "babel-preset-react": "^6.16.0",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0"
   },
   "dependencies": {
     "echarts": "^3.2.3",

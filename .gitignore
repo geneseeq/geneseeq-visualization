@@ -35,3 +35,9 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Rollup bundle output
+bundle.js
+
+# Mac, keep .DS_Store out in every folder
+**/.DS_Store
