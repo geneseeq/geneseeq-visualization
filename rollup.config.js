@@ -1,6 +1,9 @@
 import { rollup } from 'rollup';
 import commonjs from 'rollup-plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
+import json from 'rollup-plugin-json'
+import babel from 'rollup-plugin-babel'
+import replace from 'rollup-plugin-replace'
 
 export default{
   entry: 'src/main.js',
@@ -29,7 +32,14 @@ export default{
       // explicitly specify unresolvable named exports
       // (see below for more details)
       namedExports: { './module.js': ['foo', 'bar' ] }  // Default: undefined
-    })
+    }),
+
+    replace({
+      'process.env.NODE_ENV': JSON.stringify( 'development' )
+    }),
+
+    json(),
+    babel()
   ],
   dest: 'bundle.js'
 }
