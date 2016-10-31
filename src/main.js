@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import ChartBox from './chartBox.js'
+
 function Hello(props) {
   return (
-    <h1>hello</h1>
+    <ChartBox/>
   );
 }
 
