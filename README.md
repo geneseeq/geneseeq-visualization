@@ -1,5 +1,7 @@
 # geneseeq-visualization
 
+简单ERR（Echarts／React／Rollup）框架
+
 目前的进度是把echarts的官方简单例子转化为一个react组件，并用rollup打包 
 
 假设系统已经安装nodejs，克隆后在目录下依次执行：
