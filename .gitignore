@@ -41,3 +41,6 @@ bundle.js
 
 # Mac, keep .DS_Store out in every folder
 **/.DS_Store
+
+#patient data
+src/data
