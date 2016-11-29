@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import PatientData from '../containers/PatientData'
 import SelectedPatient from '../containers/SelectedPatient'
 import PatientSelectList from './patientSelectList'

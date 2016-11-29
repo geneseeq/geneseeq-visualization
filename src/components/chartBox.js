@@ -1,7 +1,7 @@
 //import echarts from 'echarts2';
 import 'echarts2/echarts'
 import 'echarts2/chart/bar'
-import * as React from 'react'
+import React from 'react'
 
 
 commonjs({
