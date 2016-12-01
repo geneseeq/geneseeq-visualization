@@ -2,21 +2,18 @@ import React from 'react'
 
 commonjs({
     namedExports: {
-	'node_modules/react/index.js': [ 'PropTypes' ]
+        'node_modules/react/index.js': ['PropTypes']
     }
 });
 
-const PatientSelectList = ({ names, onPatientChange}) => {
-    return(
-//	    <select onchange={() => onPatientChange(_this)}>
-//	    <option value="" disabled="disabled" selected="selected">Please select a name</option>
-//	    {names.map(name =>
-//		       <option value={name}>{name}</option>
-//		      )
-	    //    }
-	//	    </select>
-	<div> Hello </div>
-    )
+const PatientSelectList = ({names, onPatientChange}) => {
+    return (
+        // <select onchange={() => onPatientChange(_this)}>
+        // <option value="" disabled="disabled" selected="selected">Please select a name</option>
+        // {names.map(name => <option value={name}>{name}</option>)}
+        // </select> < div > Hello < /div>
+        <div/>
+    );
 };
 
 PatientSelectList.propTypes = {
